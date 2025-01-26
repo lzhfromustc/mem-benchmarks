@@ -1,6 +1,8 @@
 [submodule "STREAM"]
 	path = STREAM
 	url = https://github.com/jeffhammond/STREAM.git
+	ignore = dirty
 [submodule "YCSB"]
 	path = YCSB
 	url = https://github.com/brianfrankcooper/YCSB.git
+	ignore = dirty
