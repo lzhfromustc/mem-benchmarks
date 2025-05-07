@@ -1015,11 +1015,11 @@ def getCriteoAdData(
                 if max_ind_range > 0:
                     X_cat[i] = np.array(
                         list(map(lambda x: int(x, 16) % max_ind_range, line[14:])),
-                        dtype=np.int32,
+                        dtype=np.int64,
                     )
                 else:
                     X_cat[i] = np.array(
-                        list(map(lambda x: int(x, 16), line[14:])), dtype=np.int32
+                        list(map(lambda x: int(x, 16), line[14:])), dtype=np.int64
                     )
 
                 # count uniques
